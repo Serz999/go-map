@@ -99,7 +99,7 @@ func (this *Map) GetAllByValue(value any) (ids []int64, ok bool) {
     return ids, ok
 }
 
-func (this *Map) getAll() (values []any, ok bool) {
+func (this *Map) GetAll() (values []any, ok bool) {
     for _, v := range this.mp {
         values = append(values, v) 
     }
