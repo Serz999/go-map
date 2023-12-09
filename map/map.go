@@ -1,4 +1,4 @@
-package map 
+package gomap
 
 import (
 	"errors"
