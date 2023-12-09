@@ -1,4 +1,4 @@
-package customMap
+package map 
 
 import (
 	"errors"
